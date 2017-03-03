@@ -1,0 +1,111 @@
+@import 'settings';
+@import 'foundation-emails';
+// Color template
+$primary-color: #1A60C3;
+$secondary-color: #72a7d4;
+
+
+// layout 
+.container {
+  box-shadow: 0 3px 6px rgba(0,0,0,.1);
+}
+
+// Menu button style
+.menu .columns {
+
+  &:not(:last-child) > table {
+    border-right: 1px solid $secondary-color;
+  }
+
+  th {
+    text-align: center;
+    background-color: $primary-color;
+  }
+
+  a {
+    line-height: 3.3;
+    color: #fff;
+  }
+}
+
+// helper
+.pd-t-sm {
+  padding-top: 2rem;
+}
+
+.bg-grey th.pd-l-sm {
+  padding-left: 1rem !important;
+}
+
+.pd-r-sm {
+  padding-right: 1rem !important;
+}
+
+.text-black {
+  color: #000;
+}
+
+.bg-grey {
+  background-color: rgb(248, 249, 251);
+}
+
+.bd-btm-sm {
+  border-bottom: 1px solid #ccc;
+}
+
+.bd-r-sm {
+  border-right: 1px solid #eee;
+}
+
+.bd-box {
+  th {
+    padding: 1rem !important;
+  }
+  a {
+    color: #000;
+  }
+  h6 {
+    padding-top: .5rem;
+  }
+}
+
+.caption {
+  border-bottom: 1px solid #eee;
+  th {
+    padding-top: 1rem;
+  }
+  h5 {
+    padding-right: 0.5rem;
+  }
+}
+
+// Footer
+.footer {
+  background-color: #0a0a0a;
+  padding-top: 2rem;
+
+  th {
+    text-align: center;
+  }
+  a {
+    color: #fff;
+  }
+}
+
+// coppy right
+.copy-right {
+  background-color: #000;
+  color: #fff;
+  padding-top: 1rem;
+
+  th {
+    text-align: center !important;
+  }
+}
+
+
+// horizon sub content
+.h-sub {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
